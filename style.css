@@ -1,0 +1,48 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background: var(--slate-300);
+  font-family: Outfit, sans-serif;
+}
+
+.container {
+  background: var(--white);
+  width: 300px;
+  border-radius: 20px;
+}
+
+.card--content {
+  padding: 16px;
+}
+
+.qr-code {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.container--text {
+  text-align: center;
+}
+
+.title {
+  color: var(--slate-900);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.paragraph {
+  color: var(--slate-500);
+  font-weight: 400;
+  font-size: 15px;
+}
